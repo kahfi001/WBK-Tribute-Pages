@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    width: 1300px;
+    margin: 50px auto;
+    background-color: #eee;
+    text-align: center;
+
+}
+
+#main h1 {
+    font-size: 12vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-family: 'Lemonada', cursive;
+}
+
+#main p {
+    margin: 0;
+    font-size: 5vw;
+}
+
+#img-div {
+    margin: 50px auto;
+    width: 95%;
+    background-color: white;
+    padding: 15px;
+}
+
+#image {
+    width: 80%;
+    height: 50%;
+    filter: grayscale(100%);
+}
+
+#tribute-info {
+    width: 600px;
+    margin: 50px auto;
+}
+
+#tribte-info h2 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+}
+
+
+.album {
+    position: relative;
+}
+
+.album-img {
+    width: 200px;
+    height: 100px;
+}
+
+.album .album-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.album .album-overlay:hover {
+    opacity: 1;
+}
+
+.release-date {
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 5px 0;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    font-size: 2em;
+    margin: 0 10px;
+}
